@@ -1,0 +1,81 @@
+@import '/node_modules/modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500;900&display=swap');
+
+path {
+	fill-opacity: 0.6;
+}
+
+body {
+	background-image: url('assets/orbs3.webp'),
+		linear-gradient(
+			to right top,
+			#1c191a,
+			#222021,
+			#292729,
+			#2f2e30,
+			#353538,
+			#333437,
+			#323336,
+			#303235,
+			#26292b,
+			#1d2021,
+			#141718,
+			#080d0d
+		);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Urbanist', sans-serif;
+	user-select: none;
+	margin-top: 14px;
+}
+
+body,
+button {
+	color: rgba(255, 255, 255, 0.9);
+	font-weight: 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 100;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.card-level0 {
+	backdrop-filter: blur(12px);
+	border-radius: 14px;
+	border: 3px solid rgba(0, 0, 0, 0.4);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+	background: linear-gradient(155deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+.card-level1 {
+	backdrop-filter: blur(12px);
+	border-radius: 14px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(155deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+.card-level2 {
+	backdrop-filter: blur(12px);
+	border-radius: 14px;
+	border: 2px solid rgba(255, 255, 255, 0.75);
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(155deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+	transition: background 0.5s, color 0.5s;
+	cursor: pointer;
+	font-weight: 300;
+}
+
+.card-level2:hover {
+	color: black;
+	background: linear-gradient(155deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+}

@@ -1,0 +1,29 @@
+{
+	"name": "spotify-enchanced",
+	"version": "0.1.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"modern-normalize": "~1.1.0",
+		"mousecase": "^2.0.1",
+		"pinia": "~2.0.0",
+		"pkce": "^1.0.0-beta2",
+		"vue": "~3.2.0",
+		"vue-router": "~4.0.0",
+		"vue3-apexcharts": "^1.4.1"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "~1.4.0",
+		"@vue/compiler-sfc": "~3.2.0",
+		"autoprefixer": "~10.3.0",
+		"eslint": "~7.32.0",
+		"eslint-config-prettier": "~8.3.0",
+		"eslint-plugin-vue": "~7.16.0",
+		"postcss": "~8.3.0",
+		"prettier": "~2.3.0",
+		"vite": "~2.5.0"
+	}
+}
